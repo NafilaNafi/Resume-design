@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    font-family: sans-serif;
+}
+.header {
+    background-color: rgb(236, 232, 232);
+    height: 250px;
+    width: 70%;
+    margin: auto;
+}
+h3 {
+    font-size: 20px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: gray;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+p {
+    text-align: justify;
+}
+.headerbox {
+    background-color: gray;
+    height: 25px;
+    position: relative;
+    top: 10px;
+}
+.photo {
+    background-color:rgb(92, 87, 87);
+    height: 200px;
+}
+.candidate {
+    width: 200px;
+    height: 200px;
+    border-radius: 400px;
+    position: relative;
+    top: 20px;
+    left: 40%;
+    right: 40%;
+    border: 6px dotted #ffcc29;
+}
+.name {
+    background-color: #ffcc29;
+    padding: 12px 77px;
+    display: inline;
+    color: rgb(59, 53, 53);
+    position: absolute;
+    top: 170px;
+    left: 38%;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.address {
+    position: relative;
+    text-align: center;
+    color: rgb(59, 53, 53);
+    background-color: white;
+    border-bottom: 2px solid lightgray;
+    width: 70%;
+    margin: auto;
+    height: 25px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.body {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    height: 1600px;
+    display: flex;
+}
+.section-header {
+    display: inline-flex;
+    color: gray;
+}
+
+.section-body {
+    padding-left: 50px;
+    margin: 0px;
+    display: inline-flexbox;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+
+.section-body ul li {
+    margin-left: 50px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.section-left .section-body {
+    margin-left: 10px;
+}
+
+.section-right .section-body {
+    margin-left: 10px;
+}
+
+.section-left .skills tr td {
+    width: 200px;
+    padding: 5px;
+}
+
+.section-left .skills .output {
+    width: 250px;
+    margin: 0 5px;
+    height: 10px;
+    background: rgb(240, 236, 236);
+    position: relative;
+    border: 1px;
+}
+
+.section-left .skills .output span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(to right, #ffcc29, #f3e0a1);
+}
+
+.section-header i {
+    font-size: 20px;
+    border: 6px dotted #ffcc29;
+    border-radius: 55px;
+    color: #ffcc29;
+    background-color: rgb(75, 71, 71);
+}
+.section-left {
+    width: 2000px;
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+.section-right {
+    width: 2000px;
+    padding: 10px;
+}
